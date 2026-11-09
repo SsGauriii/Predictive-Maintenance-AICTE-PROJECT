@@ -1,0 +1,35 @@
+﻿# Credentials
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large model binaries
+models/*.pkl
+models/*.onnx
+models/*.tar.gz
+models/*.zip
+
+# Generated outputs (reproducible)
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp probe scripts
+probe_wml.py
+list_specs.py
